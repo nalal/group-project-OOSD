@@ -17,6 +17,42 @@
 			float: right;
 			margin: 0.3em;
 		}
+		/*header*/
+		header{
+			background-color: #101010;
+
+		}
+		header h1{
+			color: #fff;
+			display: flex;
+			justify-content: center;
+		}
+		.logo {
+			border-radius: 50%;
+			padding: .1em;
+		}
+
+		/* Navigation items */
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: #cdcdcd;
+			display: flex;
+			justify-content: center;
+		}
+		nav li {
+			list-style-type: none;
+			float: center;
+			align-items: center;
+		}
+		nav li a{
+			text-decoration: none;
+			display: block;
+			margin:1em;
+			height: 1em;
+		}
 	</style>
 	<body>
 		<header>
@@ -26,10 +62,10 @@
 				<img class="logo" src="../images/Cream.jpeg" alt="calicologo">
 			</h1>
 			<nav>
-				<ol>
+				<ul>
 					<li><a href="../index.html"> Blog</a></li>
 					<li><a href="../page/about.html">About</a></li>
-				</ol>
+				</ul>
 			</nav>
 		</header>
 		<h2>About Catnip Corner</h2>
