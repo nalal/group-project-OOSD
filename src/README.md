@@ -10,3 +10,8 @@ HTML tags
     eg. <div>
           <h1></h1>
         </div>
+
+Github
+
+A way to avoid conflicts on github is to make a pull everytime before you
+push/commit any changes
