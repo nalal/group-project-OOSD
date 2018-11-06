@@ -1,6 +1,7 @@
 This is the group project for OOSD github course
 Webpage 'catnip corner' designed for OOSD github group project
-CSS HAS BEEN MOVED TO CSS BRANCH
+~~CSS HAS BEEN MOVED TO CSS BRANCH~~
+CSS BRANCH HAS BEEN MERGED
 
 CODING RULES AND DOCUMENTATION
 HTML tags
@@ -14,4 +15,4 @@ HTML tags
 Github
 
 A way to avoid conflicts on github is to make a pull every time before you
-push/commit any changes
+push/commit any changes, also please don't force push
