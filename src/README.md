@@ -13,5 +13,5 @@ HTML tags
 
 Github
 
-A way to avoid conflicts on github is to make a pull everytime before you
+A way to avoid conflicts on github is to make a pull every time before you
 push/commit any changes
