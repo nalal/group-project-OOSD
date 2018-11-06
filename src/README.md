@@ -4,6 +4,7 @@ Webpage 'catnip corner' designed for OOSD github group project
 CSS BRANCH HAS BEEN MERGED
 
 CODING RULES AND DOCUMENTATION
+If possible use Atom as your editor
 HTML tags
 1. Use hyphens when your class name is has more than one word.  
    eg. class="more-than-one-word"
