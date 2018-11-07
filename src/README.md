@@ -1,7 +1,5 @@
 This is the group project for OOSD github course
 Webpage 'catnip corner' designed for OOSD github group project
-~~CSS HAS BEEN MOVED TO CSS BRANCH~~
-CSS BRANCH HAS BEEN MERGED
 
 CODING RULES AND DOCUMENTATION
 If possible use Atom as your editor
