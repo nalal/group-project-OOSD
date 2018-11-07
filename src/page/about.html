@@ -5,61 +5,17 @@
 	<head>
 		<meta charset="UFT-8">
 		<title>Catnip Corner</title>
+		<!-- note the level first we want the reset to work and then bootstrap
+		css to overtake. if there are any changes we will link it to our
+		stylesheet.css-->
 		<!--reset csss-->
 		<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 		<!--bootstrap cdn version 4.1.3-->
-		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!--our css overrides-->
+		<link rel="stylesheet" href="css/stylesheet.css">
 	</head>
-	<style>
-
-		/* footer */
-		footer{
-			background-color: grey;
-		}
-		.social-media-icons img{
-			height: 45px;
-			float: right;
-			margin: 0.3em;
-		}
-		/* header items*/
-		header{
-			background-color: #101010;
-
-		}
-		header h1{
-			color: #fff;
-			display: flex;
-			justify-content: center;
-		}
-		.logo {
-			border-radius: 50%;
-			padding: .1em;
-			height: 42px;
-			width: 42px;
-		}
-
-		/* Navigation items */
-		ul {
-		  list-style-type: none;
-		  margin: 0;
-		  padding: 0;
-		  overflow: hidden;
-		  background-color: #cdcdcd;
-			display: flex;
-			justify-content: center;
-		}
-		nav li {
-			list-style-type: none;
-			float: center;
-			align-items: center;
-		}
-		nav li a{
-			text-decoration: none;
-			display: block;
-			margin:1em;
-			height: 1em;
-		}
-	</style>
 	<body>
 		<header>
 			<h1>
