@@ -1,1 +1,9 @@
-(PLACEHOLDER TEXT PLEASE ERASE WHEN YOU START WORKING ON THIS SHEET)
+/* Cover image */
+.jumbotron {
+background-image: url("../images/cat-cover-2.png");
+background-size: cover;
+}
+
+.col{
+  margin-bottom: .5em !important;
+}
