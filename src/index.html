@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UFT-8">
+		<title>Catnip Corner</title>
+		<!-- note the level first we want the reset to work and then bootstrap
+		css to overtake. if there are any changes we will link it to our
+		stylesheet.css-->
+		<!--reset csss-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css">
+		<!--bootstrap cdn version 4.1.3-->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<!--our css overrides-->
+		<link rel="stylesheet" href="./css/stylesheet.css"></head>
+	<body>
+		<div class="container-fluid">
+				<div class="col-12">
+					<div class="jumbotron">
+						<div class="row justify-content-center">
+							<img src="./images/pawprint200x150.png" alt="calicologo">
+			    			<h1 class="display-2" >Catnip Corner! :3</h1>
+							<img src="./images/pawprint200x150.png" alt="calicologo">
+						</div>
+					</div>
+				</div>
+
+				<ul class="nav nav-pills nav-fill">
+		  		<li class="nav-item">
+		    		<a class="nav-link active" href="./page/about.html">About</a>
+		  		</li>
+			  	<li class="nav-item">
+			    		<a class="nav-link" href="./page/blogpost.html">Latest Blog</a>
+			  	</li>
+				</ul>
+
+		 		<p><h5 class="display-4">Here is our latest in  reviews for feline products from our staff.</h5></p>
+<!-- Grid approach -->
+				<div class="row bog-list">
+				  <div class="col col-lg-6 col-md-12 col-sm-12 gap blog-item" style="background-color:lavender;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo1.png">
+						Mitten's Why do cats meow</a>
+						<a href="./page/blogpost.html" class="btn btn-primary">Read More</a>
+					</div>
+				  <div class="col col-lg-6 col-md-12 col-sm-12 gap blog-item" style="background-color:lavenderblush;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo2.png">
+						Nero's On mouse lasers</a>
+						<a href="./page/blogpost.html" class="btn btn-primary">Read More</a>
+					</div>
+					<div class="col col-lg-6 col-md-12 col-sm-12 gap blog-item" style="background-color:lavender;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo3.png">
+						Timber's Vacation in the sun</a>
+						<a href="./page/blogpost.html" class="btn btn-primary">Read More</a>
+					</div>
+				  <div class="col col-lg-6 col-md-12 col-sm-12 gap blog-item" style="background-color:lavenderblush;">
+
+						<a href="./page/blogpost.html"><img src="./images/index_photo4.png">
+						Tonya's Best nap position</a>
+						<a href="./page/blogpost.html" class="btn btn-primary">Read More</a>
+					</div>
+				</div>
+
+<!-- Table approach
+				<div class="table-responsive">
+			    <table class="table">
+						<tbody>
+			        <tr>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo1.png">
+								<text> Mitten's Why do cats meow </text></a></td>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo2.png">
+								<text> Nero's post about mouse laser</text></a></td>
+			        </tr>
+							<tr>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo3.png">
+								<text> Timber's Vaction in the sun</text></a></td>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo4.png">
+								<text> Tonya's best nap position</text></a></td>
+			        </tr>
+			      </tbody>
+			    </table>
+			  </div>
+-->
+	<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a href="" target="_blank"> <img src="./images/social-icons/fb-icon-300x300.png" alt="facebook" width="45px"></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" target="_blank"> <img src="./images/social-icons/twitter.png" alt="twitter" width="45px"></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="" target="_blank"><img src="./images/social-icons/instagram300x300.png" alt="instagram" width="45px"></a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">&copy; <script>document.write(new Date().getFullYear())</script>
+      <a href="#"> Catnip Corner</a>
+    </div>
+
+  </footer>
+  <!-- Footer -->
+   </div>
+			<!--bootstrap scripts to run the dropdown lol -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

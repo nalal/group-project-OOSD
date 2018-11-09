@@ -1,0 +1,32 @@
+/* Cover image */
+.jumbotron {
+background-image: url("../images/cat-cover-2.png");
+background-size: cover;
+}
+
+/* margin and gaps */
+.col{
+  margin-bottom: .02em !important;
+}
+
+.gap{
+  margin: .3em;
+}
+
+/* container */
+.container-fluid{
+  width: 85%;
+}
+
+/* row */
+.row.bog-list{
+  justify-content: center !important;
+}
+
+.blog-item a {
+  text-decoration: none;
+}
+
+.blog-item:hover{
+  box-shadow: 1px 2px 8px #888888;
+}
