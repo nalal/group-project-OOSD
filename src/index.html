@@ -16,58 +16,68 @@
 		<!--our css overrides-->
 		<link rel="stylesheet" href="./css/stylesheet.css"></head>
 	<body>
-			<div class="container-fluid">
-			<div class="col-12">
-				<div class="jumbotron">
-					<div class="row justify-content-center">
-						<img src="./images/pawprint200x150.png" alt="calicologo">
-		    			<h1 class="display-4" >Catnip Corner! :3</h1>
-						<img src="./images/pawprint200x150.png" alt="calicologo">
+		<div class="container-fluid">
+				<div class="col-12">
+					<div class="jumbotron">
+						<div class="row justify-content-center">
+							<img src="./images/pawprint200x150.png" alt="calicologo">
+			    			<h1 class="display-4" >Catnip Corner! :3</h1>
+							<img src="./images/pawprint200x150.png" alt="calicologo">
+						</div>
 					</div>
 				</div>
-			</div>
-	   
-			<ul class="nav nav-pills nav-fill">
-	  		<li class="nav-item">
-	    		<a class="nav-link active" href="./page/about.html">About</a>
-	  		</li>
-		  	<li class="nav-item">
-		    		<a class="nav-link" href="./page/blogpost.html">Latest Blog</a>
-		  	</li>
-			</ul>
-	
-		
 
-	<div title="indexbody">
-	</div>
-		<text>Here is our latest in  reviews for feline products from our staff</text>
-		</br>
-		<div>
-		<style>
-		table, th, td {
-			border: 1px solid black;
-			border-collapse: collapse;
-			text-align: center
-			}
-		</style>
-		<table style="width:100%">
-		<tr>
-		<th><a href="./page/blogpost.html"><img src="./images/Miss Mittens.jpg">
-		<text> Mitten's Why do cats meow </text></a></th>
-		<th><a href="./page/blogpost.html"><img src="./images/Nero.jpg">
-		<text> Nero's post about mouse laser</text></a></th>
-		<tr>
-		<th><a href="./page/blogpost.html"><img src="./images/Timbers.jpg">
-		<text> Timber's Vaction in the sun</text></a></th>
-		<th><a href="./page/blogpost.html"><img src="./images/Tonya.jpg">
-		<text> Tonya's best nap position</text></a></th>
-		</tr>
+				<ul class="nav nav-pills nav-fill">
+		  		<li class="nav-item">
+		    		<a class="nav-link active" href="./page/about.html">About</a>
+		  		</li>
+			  	<li class="nav-item">
+			    		<a class="nav-link" href="./page/blogpost.html">Latest Blog</a>
+			  	</li>
+				</ul>
 
-		</tr>
-		</table>
-		</div>
+		 		<h5 style="padding-top:20px;">Here is our latest in  reviews for feline products from our staff.</h5>
+<!-- Grid approach -->
+				<div class="row">
+				  <div class="col-sm-3" style="background-color:lavender;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo1.png">
+						<text> <b>Mitten's Why do cats meow</b></text></a>
+					</div>
+				  <div class="col-sm-3" style="background-color:lavenderblush;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo2.png">
+						<text> <b>Nero's On mouse lasers</b></text></a>
+					</div>
+					<div class="col-sm-3" style="background-color:lavender;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo3.png">
+						<text> <b>Timber's Vacation in the sun</b></text></a>
+					</div>
+				  <div class="col-sm-3" style="background-color:lavenderblush;">
+						<a href="./page/blogpost.html"><img src="./images/index_photo4.png">
+						<text> <b>Tonya's Best nap position</b></text></a>
+					</div>
+				</div>
 
-			<!-- Footer -->
+<!-- Table approach
+				<div class="table-responsive">
+			    <table class="table">
+						<tbody>
+			        <tr>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo1.png">
+								<text> Mitten's Why do cats meow </text></a></td>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo2.png">
+								<text> Nero's post about mouse laser</text></a></td>
+			        </tr>
+							<tr>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo3.png">
+								<text> Timber's Vaction in the sun</text></a></td>
+			          <td><a href="./page/blogpost.html"><img src="./images/index_photo4.png">
+								<text> Tonya's best nap position</text></a></td>
+			        </tr>
+			      </tbody>
+			    </table>
+			  </div>
+-->
+	<!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4">
 
     <!-- Footer Elements -->
@@ -96,10 +106,10 @@
 
   </footer>
   <!-- Footer -->
-</div>
-	<!--bootstrap scripts to run the dropdown lol -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </div>
+			<!--bootstrap scripts to run the dropdown lol -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</body>
 </html>
